@@ -35,7 +35,7 @@ read -p $'\n\e[1;96m[\e[0m\e[1;92m+\e[0m\e[1;96m] SELECT OPTION: \e[0m' option
 if [[ $option == 1 || $option == 01 ]]; then
 echo
 cd $HOME/power/core
-bash menu.sh
+bash start attack.sh
 echo
 elif [[ $option == 2 || $option == 02 ]]; then
 echo

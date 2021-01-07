@@ -59,7 +59,7 @@ rm ngrok > /dev/null 2>&1
 unzip ngrok-wifi.zip > /dev/null 2>&1
 chmod +x ngrok
 elif [ $hulk = 2 ];then
-cd $HOME/mrphish/core
+cd $HOME/power/core
 rm ngrok > /dev/null 2>&1
 unzip ngrok-data.zip > /dev/null 2>&1
 chmod +x ngrok
@@ -112,25 +112,25 @@ echo -e "\e[96m        |-----------------------------------------------------|"
 read -p $'\n\e[1;96m[\e[0m\e[1;92m+\e[0m\e[1;96m] SELECT OPTION: \e[0m' option
 if [[ $option == 1 || $option == 01 ]]; then
 echo
-cd $HOME/mrphish/core
+cd $HOME/power/core
 bash menu.sh
 echo
 elif [[ $option == 2 || $option == 02 ]]; then
 echo
-cd $HOME/mrphish/core/
+cd $HOME/power/core/
 bash show.sh
 elif [[ $option == 3 || $option == 03 ]]; then
 echo
-cd $HOME/mrphish/core/about
+cd $HOME/power/core/about
 bash about.sh
 elif [[ $option == 4 || $option == 04 ]]; then
 echo
-cd $HOME/mrphish/core/update
+cd $HOME/power/core/update
 bash update.sh
 echo
 elif [[ $option == 7 || $option == 07 ]]; then
 echo
-cd $HOME/mrphish/core
+cd $HOME/power/core
 bash intspeed.sh
 echo
 elif [[ $option == 5 ]]; then

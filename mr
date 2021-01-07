@@ -34,20 +34,20 @@ echo -e "\e[96m        |-----------------------------------------------------|"
 read -p $'\n\e[1;96m[\e[0m\e[1;92m+\e[0m\e[1;96m] SELECT OPTION: \e[0m' option
 if [[ $option == 1 || $option == 01 ]]; then
 echo
-cd $HOME/mrphish/core
+cd $HOME/power/core
 bash menu.sh
 echo
 elif [[ $option == 2 || $option == 02 ]]; then
 echo
-cd $HOME/mrphish/core/
+cd $HOME/power/core/
 bash show.sh
 elif [[ $option == 3 || $option == 03 ]]; then
 echo
-cd $HOME/mrphish/core/about
+cd $HOME/power/core/about
 bash about.sh
 elif [[ $option == 4 || $option == 04 ]]; then
 echo
-cd $HOME/mrphish/core/update
+cd $HOME/power/core/update
 bash update.sh
 echo
 elif [[ $option == 5 ]]; then
@@ -58,7 +58,7 @@ sleep 3.0
 exit 3
 elif [[ $option == 7 || $option == 07 ]]; then
 echo
-cd $HOME/mrphish/core
+cd $HOME/power/core
 bash intspeed.sh
 elif [[ $option == 6 || $option == 06 ]]; then
 echo
@@ -69,7 +69,7 @@ echo                                                                            
 bash mr
 else                                                                                                                                                                                 printf "                \e[1;92m [!] Invalid option!\e[0m\n"
 sleep 1
-cd $HOME/mrphish
+cd $HOME/power
 bash mr
 fi
 

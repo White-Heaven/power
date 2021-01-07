@@ -1,7 +1,7 @@
 clear
 check(){
-if wget --spider https://raw.githubusercontent.com/noob-hackers/mrphish/master/update.v1.2 2>/dev/null; then
-cd $HOME/mrphish/core/update
+if wget --spider https://raw.githubusercontent.com/noob-hackers/power/master/update.v1.2 2>/dev/null; then
+cd $HOME/power/core/update
 echo "hai" > update.txt
 else
 echo
@@ -9,8 +9,8 @@ fi
 }
 check
 option(){
-if [ -f "$HOME/mrphish/core/update/update.txt" ];then
-cd $HOME/mrphish/core/update
+if [ -f "$HOME/power/core/update/update.txt" ];then
+cd $HOME/power/core/update
 bash update.sh
 else
 echo " "
@@ -54,7 +54,7 @@ echo -e "\e[96m                        ╚════════════�
 echo -n -e "\e[32mSELECT\e[96m[\e[33m1/2\e[96m]\e[33m: \e[0m"
 read hulk
 if [ $hulk = 1 ];then
-cd $HOME/mrphish/core
+cd $HOME/power/core
 rm ngrok > /dev/null 2>&1
 unzip ngrok-wifi.zip > /dev/null 2>&1
 chmod +x ngrok
@@ -74,7 +74,7 @@ echo
     echo -e "                             STATUS \e[1;93m[\e[0m\e[91mOFFLINE\e[0m\e[1;93m]\e[0m"
 echo
 sleep 1.0
-bash mrphish
+bash power
 fi  
 clear
 echo -e " \e[96m

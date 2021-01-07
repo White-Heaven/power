@@ -31,7 +31,7 @@ echo -e "\e[91m
                 / \/ \ )   / _  ) __/) __ ( )( \___ \) __ ("      
 echo -e "\e[96m                \_)(_/(__\_)(_)(__)  \_)(_/(__)(____/\_)(_/\e[0m"
 echo      
-echo -e "                       \e[92m TOOL BY NOOB HACKERS (NITRO)\e[0m"
+echo -e "                       \e[92m TOOL BY DARKHEAVEN (DARKHOLE)\e[0m"
 echo
 wget -q --spider http://google.com
 
@@ -91,7 +91,7 @@ echo -e "\e[91m
                 / \/ \ )   / _  ) __/) __ ( )( \___ \) __ ("      
 echo -e "\e[96m                \_)(_/(__\_)(_)(__)  \_)(_/(__)(____/\_)(_/\e[0m"
 echo      
-echo -e "                       \e[92m TOOL BY NOOB HACKERS (NITRO)\e[0m"
+echo -e "                       \e[92m TOOL BY DARKHEAVEN (DARKHOLE)\e[0m"
 echo
 echo -e "\e[96m        |-----------------------[V 1.1]-----------------------|"
 echo -e "\e[96m        |-------------------\e[92mSELECT OPTIONS\e[96m--------------------|"
@@ -103,7 +103,7 @@ echo -e "\e[96m        |                [\e[92m2\e[96m]==> DUMPS                
 echo -e "\e[96m        |                [\e[92m3\e[96m]==> ABOUT                         |"
 echo -e "\e[96m        |                [\e[92m4\e[96m]==> UPDATE                        |"
 echo -e "\e[96m        |                [\e[92m5\e[96m]==> EXIT                          |"
-echo -e "\e[96m        |                [\e[92m6\e[96m]==> SUBSCRIBE                     |"
+echo -e "\e[96m        |                [\e[92m6\e[96m]==> PAGE NOT                      |"
 echo -e "\e[96m        |                [\e[92m7\e[96m]==> CHECK SPEED                   |"
 echo -e "\e[96m        |                                                     |"
 echo -e "\e[96m        |-----------------------------------------------------|"

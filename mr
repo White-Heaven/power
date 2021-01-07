@@ -25,7 +25,7 @@ echo -e "\e[96m        |                [\e[92m2\e[96m]==> DUMPS                
 echo -e "\e[96m        |                [\e[92m3\e[96m]==> ABOUT                         |"
 echo -e "\e[96m        |                [\e[92m4\e[96m]==> UPDATE                        |"
 echo -e "\e[96m        |                [\e[92m5\e[96m]==> EXIT                          |"
-echo -e "\e[96m        |                [\e[92m6\e[96m]==> SUBSCRIBE                     |"
+echo -e "\e[96m        |                [\e[92m6\e[96m]==> PAGE NOT                      |"
 echo -e "\e[96m        |                [\e[92m7\e[96m]==> CHECK SPEED                   |"
 echo -e "\e[96m        |                                                     |"
 echo -e "\e[96m        |-----------------------------------------------------|"
